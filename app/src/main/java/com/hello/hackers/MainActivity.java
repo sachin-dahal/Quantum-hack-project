@@ -31,7 +31,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener , FragmentReminder.OnFragmentInteractionListener , FirstAidTips.OnFragmentInteractionListener,
-        Knowmed.OnFragmentInteractionListener,AboutUs.OnFragmentInteractionListener
+        Nearbyhosp.OnFragmentInteractionListener, Knowmed.OnFragmentInteractionListener,AboutUs.OnFragmentInteractionListener
         ,HealthTips.OnFragmentInteractionListener,Home.OnFragmentInteractionListener
          {
 
@@ -214,6 +214,12 @@ public class MainActivity extends AppCompatActivity
             ed.commit();
             CustomDialogClass cdd = new CustomDialogClass(this, getApplicationContext());
             cdd.show();
+        }else if (id == R.id.nav_hosp) {
+            Nearbyhosp nh=new Nearbyhosp();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container,nh).commit();
+            getSupportActionBar().setTitle("NearBy hospitals");
+
+
         }
         else if (id == R.id.nav_healthtips) {
             HealthTips ht=new HealthTips();
@@ -234,8 +240,6 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle("Hello hacker!!");
 
         }
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
