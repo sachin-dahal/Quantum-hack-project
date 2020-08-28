@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Quantum-hack-project.iml" filepath="$PROJECT_DIR$/.idea/modules/Quantum-hack-project.iml" group="Quantum-hack-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Quantum-hack-project-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Quantum-hack-project-app.iml" group="Quantum-hack-project/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="hello hackers/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello_hackers.iml" filepath="$PROJECT_DIR$/.idea/modules/hello_hackers.iml" group="hello_hackers" />
     </modules>
