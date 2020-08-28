@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintTextColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dia_name"
+            android:singleLine="true"
+            android:hint="Name"
+            android:textCursorDrawable="@drawable/txt_cursor"
+            android:backgroundTint="@color/colorPrimary"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Help us know u more......"
+        android:textSize="15dp"
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_gravity="center"
+        android:padding="3dp"
+
+
+         >
+
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g1"
+            android:layout_width="100dp"
+            android:src="@drawable/g1"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:src="@drawable/b1"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g2"
+            android:layout_width="100dp"
+            android:src="@drawable/g2"/>
+        <ImageView
+        android:layout_height="100dp"
+        android:padding="10dp"
+            android:id="@+id/b2"
+        android:layout_width="100dp"
+        android:src="@drawable/b2"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g3"
+            android:layout_width="100dp"
+            android:src="@drawable/g3"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:id="@+id/b3"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:src="@drawable/b3"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g4"
+            android:layout_width="100dp"
+            android:src="@drawable/g4"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:id="@+id/b4"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:src="@drawable/b4"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g5"
+            android:layout_width="100dp"
+            android:src="@drawable/g5"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:id="@+id/b5"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:src="@drawable/b5"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:id="@+id/g6"
+            android:layout_width="100dp"
+            android:src="@drawable/g6"/>
+        <ImageView
+            android:layout_height="100dp"
+            android:id="@+id/b6"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:src="@drawable/b6"/>
+
+
+
+    </GridLayout>
+
+</LinearLayout>

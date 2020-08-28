@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hello.hackers.Home"
+    android:orientation="vertical"
+    android:id="@+id/home"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/viewPager"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <GridView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:stretchMode="spacingWidthUniform"
+        android:horizontalSpacing="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:verticalSpacing="20dp"
+        android:id="@+id/grid_home"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hello.hackers.AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AbtUs_tv"
+        android:text="Our Team"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <GridLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_pic"
+        android:columnCount="2"
+        android:layout_below="@id/AbtUs_tv"
+        >
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/b1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXXX xxxx"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/b2"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXXX XXXXX"
+               />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/b3"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXXXX xxxxx"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+          android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/g1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXXXX XXXXXX"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/splash"
+            android:id="@+id/app_logo"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
