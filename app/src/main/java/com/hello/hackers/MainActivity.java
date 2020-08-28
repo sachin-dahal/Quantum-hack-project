@@ -30,7 +30,7 @@ import com.google.android.material.navigation.NavigationView;
 
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener , FragmentReminder.OnFragmentInteractionListener ,
+        implements NavigationView.OnNavigationItemSelectedListener , FragmentReminder.OnFragmentInteractionListener , FirstAidTips.OnFragmentInteractionListener,
         Knowmed.OnFragmentInteractionListener,AboutUs.OnFragmentInteractionListener
         ,HealthTips.OnFragmentInteractionListener,Home.OnFragmentInteractionListener
          {
@@ -220,7 +220,11 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.container,ht).commit();
             getSupportActionBar().setTitle("Know Your meds");
 
-
+        }
+        else if (id == R.id.nav_firstaid) {
+            FirstAidTips ft=new FirstAidTips();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container,ft).commit();
+            getSupportActionBar().setTitle("Daily News");
         }
         else if(id==R.id.gottohome)
         {
