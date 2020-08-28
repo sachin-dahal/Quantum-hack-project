@@ -232,6 +232,11 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.container,ft).commit();
             getSupportActionBar().setTitle("Daily News");
         }
+        else if(id==R.id.talk_birkhe){
+            TalkWithBirkhe talk=new TalkWithBirkhe();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container,talk).commit();
+            getSupportActionBar().setTitle("Talk With Dr. Medico");
+        }
         else if(id==R.id.gottohome)
         {
             Home hm = new Home();

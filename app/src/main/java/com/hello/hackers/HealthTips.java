@@ -81,9 +81,9 @@ public class HealthTips extends Fragment {
         w.getSettings().getJavaScriptEnabled();
         w.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
        //need to replace with official who website.
-        //http://www.gkfacts.in/search/label/Health Tips
 
-        w.loadUrl("https://sanchaichhau.blogspot.com/");
+
+        w.loadUrl("https://quantumhackathon.blogspot.com/");
         //w.loadUrl("https://www.google.co.in/");
         return v;
     }

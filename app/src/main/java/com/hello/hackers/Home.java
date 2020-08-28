@@ -39,8 +39,8 @@ public class Home extends Fragment {
     private String mParam1;
     private String mParam2;
     GridView grid;
-    String[] text = { "Med Reminder","Health Tips","Know Your Med","Daily News", "Nearby Hospitals"};
-    int[] imageId = { R.drawable.grid2,R.drawable.health_tips,R.drawable.grid3, R.drawable.grid1, R.drawable.new_hospital};
+    String[] text = { "Med Reminder","Health Tips","Know Your Med","Daily News", "Nearby Hospitals", " talk with Dr. Medico"};
+    int[] imageId = { R.drawable.grid2,R.drawable.health_tips,R.drawable.grid3, R.drawable.grid1, R.drawable.new_hospital, R.drawable.new_birkhe};
     int[] imagesliderId = {R.drawable.a2,R.drawable.a1,R.drawable.a3,R.drawable.a4,R.drawable.a5};
 
 
@@ -216,7 +216,15 @@ public class Home extends Fragment {
                         break;
 
                     }
+                    case 5:
+                        TalkWithBirkhe talk=new TalkWithBirkhe();
+                        FragmentTransaction transaction=getFragmentManager().beginTransaction();
+
+                        transaction.replace(R.id.container,talk).commit();
+                        transaction.addToBackStack(null);
+                        break;
                 }
+
 
             }
         });
