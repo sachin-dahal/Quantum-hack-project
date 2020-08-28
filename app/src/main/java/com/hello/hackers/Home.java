@@ -39,8 +39,8 @@ public class Home extends Fragment {
     private String mParam1;
     private String mParam2;
     GridView grid;
-    String[] text = { "Med Reminder","Health Tips","Know Your Med","Daily News"};
-    int[] imageId = { R.drawable.grid2,R.drawable.health_tips,R.drawable.grid3, R.drawable.grid1};
+    String[] text = { "Med Reminder","Health Tips","Know Your Med","Daily News", "Nearby Hospitals"};
+    int[] imageId = { R.drawable.grid2,R.drawable.health_tips,R.drawable.grid3, R.drawable.grid1, R.drawable.new_hospital};
     int[] imagesliderId = {R.drawable.a2,R.drawable.a1,R.drawable.a3,R.drawable.a4,R.drawable.a5};
 
 
@@ -207,6 +207,14 @@ public class Home extends Fragment {
                         transaction.addToBackStack(null);
                         transaction.replace(R.id.container,rm).commit();
                         break;
+                    }
+                    case 4: {
+                        Nearbyhosp rm = new Nearbyhosp();
+                        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                        transaction.addToBackStack(null);
+                        transaction.replace(R.id.container,rm).commit();
+                        break;
+
                     }
                 }
 
