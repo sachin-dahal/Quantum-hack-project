@@ -1,7 +1,5 @@
 package com.hello.hackers;
 
-import com.hello.hackers.R;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.net.Uri;
