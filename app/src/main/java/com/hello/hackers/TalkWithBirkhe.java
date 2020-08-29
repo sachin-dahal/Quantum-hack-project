@@ -139,7 +139,7 @@ public class TalkWithBirkhe extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         MainActivity activity=(MainActivity) getActivity();
-        activity.getSupportActionBar().setTitle("Talk with Dr. Birkhe");
+        activity.getSupportActionBar().setTitle("Talk with Dr. Medico");
         View view= inflater.inflate(R.layout.fragment_talk_with_birkhe, container, false);
         mContext = getActivity().getApplicationContext();
         inputMessage=view.findViewById(R.id.message);
