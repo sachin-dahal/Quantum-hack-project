@@ -89,7 +89,7 @@ public class Home extends Fragment {
                              Bundle savedInstanceState) {
         MainActivity activity=(MainActivity) getActivity();
         //needs to change!!
-        activity.getSupportActionBar().setTitle("Hello Hackers!!");
+        activity.getSupportActionBar().setTitle("DOCMED");
 
         View v=inflater.inflate(R.layout.fragment_home, container, false);
         // Inflate the layout for this fragment

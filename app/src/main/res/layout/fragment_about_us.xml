@@ -122,7 +122,7 @@
             android:layout_height="80dp"
 
             android:layout_centerHorizontal="true"
-            android:src="@drawable/splash"
+            android:src="@mipmap/ic_launcher"
             android:id="@+id/app_logo"
             />
         <TextView

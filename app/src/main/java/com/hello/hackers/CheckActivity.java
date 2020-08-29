@@ -12,17 +12,9 @@ public class CheckActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if(!loggedin)
-        {
-            startActivity(new Intent(CheckActivity.this,OnBoardActivity.class));
+        startActivity(new Intent(CheckActivity.this,MainActivity.class));
             finish();
 
-        }
-        else
-        {
-            startActivity(new Intent(CheckActivity.this,MainActivity.class));
-            finish();
-        }
     }
 
     @Override
