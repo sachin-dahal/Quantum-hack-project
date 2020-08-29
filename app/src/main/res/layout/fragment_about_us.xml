@@ -35,14 +35,14 @@
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/b1"
+                android:src="@drawable/gautam"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:padding="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="XXXXX xxxx"
+                android:text="Gautam Phuyal"
                 />
 
         </LinearLayout>
@@ -55,14 +55,14 @@
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/b2"
+                android:src="@drawable/saurav"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:padding="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="XXXXX XXXXX"
+                android:text="Saurav Poudel"
                />
 
         </LinearLayout>
@@ -75,14 +75,14 @@
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/b3"
+                android:src="@drawable/sachin"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:padding="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="XXXXXX xxxxx"
+                android:text="Sachin Dahal"
                 />
 
         </LinearLayout>
@@ -95,14 +95,14 @@
 
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/g1"
+                android:src="@drawable/erika"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:padding="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="XXXXXX XXXXXX"
+                android:text="Erika Yazmín "
                 android:layout_gravity="center_horizontal"
                 />
 
@@ -122,7 +122,7 @@
             android:layout_height="80dp"
 
             android:layout_centerHorizontal="true"
-            android:src="@drawable/splash"
+            android:src="@mipmap/ic_launcher"
             android:id="@+id/app_logo"
             />
         <TextView

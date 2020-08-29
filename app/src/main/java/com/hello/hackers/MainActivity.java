@@ -51,13 +51,13 @@ public class MainActivity extends AppCompatActivity
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // name should be changed!
-            setTaskDescription( new ActivityManager.TaskDescription("hello hackers!!",bitmap));
+            setTaskDescription( new ActivityManager.TaskDescription("DOCMED",bitmap));
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //name should be changed!
-        getSupportActionBar().setTitle("Hello hackers!!");
+        getSupportActionBar().setTitle("DOCMED");
 //        getSupportActionBar().setIcon(R.drawable.single_line_logo);
         LinearLayout layout=findViewById(R.id.container);
 
@@ -235,14 +235,14 @@ public class MainActivity extends AppCompatActivity
         else if(id==R.id.talk_birkhe){
             TalkWithBirkhe talk=new TalkWithBirkhe();
             getSupportFragmentManager().beginTransaction().replace(R.id.container,talk).commit();
-            getSupportActionBar().setTitle("Talk With Dr. Medico");
+            getSupportActionBar().setTitle("Talk With Dr.Medico");
         }
         else if(id==R.id.gottohome)
         {
             Home hm = new Home();
             getSupportFragmentManager().beginTransaction().replace(R.id.container, hm).commit();
             //name should be changed!
-            getSupportActionBar().setTitle("Hello hacker!!");
+            getSupportActionBar().setTitle("DOCMED");
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
