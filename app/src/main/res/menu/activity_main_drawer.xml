@@ -28,7 +28,7 @@
         <item
             android:id="@+id/talk_birkhe"
             android:icon="@drawable/ic_baseline_textsms_24"
-            android:title="Talk with Birkhe"/>
+            android:title="Talk with Dr. Medico"/>
 
     </group>
 
